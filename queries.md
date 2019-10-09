@@ -9,7 +9,7 @@ join categories as c on p.categoryId = c.categoryId
 
 select orderId, ShipperName, OrderDate from orders as o
 join shippers as s on o.shipperId = s.shipperId
-where orderDate < 1997/01/09
+where orderDate < '1997-01-09'
 
 ### Display all ProductNames and Quantities placed on order 10251. Sort by ProductName. Shows 3 records.
 
